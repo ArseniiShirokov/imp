@@ -13,10 +13,28 @@ List of commands:
 * ```autorotate```                                      Automatic rotation by an angle of 0, 90, 180 or 270 degrees according to the proposed algorithm
 
 ### Task 2. Filtering and metrics
-A program should be developed that implements the basic image filtering algorithms and metrics:
+You should implement the basic image filtering algorithms and metrics:
 * Median image filtering
 * Gaussian Filter
 * Bilateral filtering
 * MSE Metric
 * PSNR Metric
 * SSIM Metric
+
+The program must support running from the command line with a strictly defined command format:
+
+```python main.py (command) (parameters...)```
+
+List of commands:
+* ```mse (input_file_1) (input_file_2)```
+Calculate the value of the MSE metric and output it to the console
+* ```psnr (input_file_1) (input_file_2)```
+Calculate the value of the PSNR metric and output it to the
+* ```ssim console (input_file_1) (input_file_2)```
+Calculate the value of the SSIM metric and output it to the
+* ```median console (read) (input_file) (output_file)```
+Median filtering with a window size (2rad+1) × (2rad+1)
+* ```gauss (sigma_d) (input_file) (output_file)```
+ 	Gaussian filter with the parameter σd
+* ```bilateral (sigma_d) (sigma_r) (input_file) (output_file)```
+Bilateral filtering with parameters σd and σr
