@@ -1,4 +1,4 @@
-## Course on modern methods of image processing
+## Methods of image processing
 ### Task 1. Basics of working with images
 The photographer, taking landscapes, took a lot of pictures. However, some of the images were rotated by an angle multiple of 90 degrees. Help the photographer solve the problem automatically.
 
@@ -12,3 +12,11 @@ List of commands:
 * ```rotate {cw|ccw} (angle)```                         Clockwise (cw) or counterclockwise (ccw) by a given number of degrees, for example: rotate cw 90
 * ```autorotate```                                      Automatic rotation by an angle of 0, 90, 180 or 270 degrees according to the proposed algorithm
 
+### Task 2. Filtering and metrics
+A program should be developed that implements the basic image filtering algorithms and metrics:
+* Median image filtering
+* Gaussian Filter
+* Bilateral filtering
+* MSE Metric
+* PSNR Metric
+* SSIM Metric
