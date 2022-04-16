@@ -29,10 +29,10 @@ List of commands:
 * ```mse (input_file_1) (input_file_2)```
 Calculate the value of the MSE metric and output it to the console
 * ```psnr (input_file_1) (input_file_2)```
-Calculate the value of the PSNR metric and output it to the
-* ```ssim console (input_file_1) (input_file_2)```
-Calculate the value of the SSIM metric and output it to the
-* ```median console (read) (input_file) (output_file)```
+Calculate the value of the PSNR metric and output it to the console
+* ```ssim (input_file_1) (input_file_2)```
+Calculate the value of the SSIM metric and output it to the console
+* ```median (read) (input_file) (output_file)```
 Median filtering with a window size (2rad+1) × (2rad+1)
 * ```gauss (sigma_d) (input_file) (output_file)```
  	Gaussian filter with the parameter σd
