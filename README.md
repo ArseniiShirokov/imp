@@ -23,7 +23,7 @@ You should implement the basic image filtering algorithms and metrics:
 
 The program must support running from the command line with a strictly defined command format:
 
-```python main.py (command) (parameters...)```
+```python filters.py (command) (parameters...)```
 
 List of commands:
 * ```mse (input_file_1) (input_file_2)```
