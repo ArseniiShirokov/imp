@@ -39,10 +39,10 @@ Median filtering with a window size (2rad+1) × (2rad+1)
 * ```bilateral (sigma_d) (sigma_r) (input_file) (output_file)```
 Bilateral filtering with parameters σd and σr
 
-### Task 3.Canny edge detector
+### Task 3. Canny edge detector
 ```python canny.py (command) [parameters...] (input_image) (output_image)```
 
 List of commands:
 * ```grad (sigma)``` Calculation of the gradient modulus
 * ```nomax (sigma)``` Result of non-maximal suppression
-* ```canny (sigma)``` (thr_high) (thr_low) Detection of boundaries using the Canny algorithm. The first parameter is sigma for calculating the gradient, the next two parameters are real numbers — larger and smaller thresholds
+* ```canny (sigma (thr_high) (thr_low))``` Detection of boundaries using the Canny algorithm. The first parameter is sigma for calculating the gradient, the next two parameters are real numbers — larger and smaller thresholds
